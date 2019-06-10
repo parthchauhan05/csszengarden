@@ -360,48 +360,48 @@ footer a:hover {
     body {
         display: grid;
         grid-template-areas:
-            "a a a a a a a"
-            "k k k k k k h"
-            "b b c c c c h"
-            "d d d d e e h"
-            "f f f f f f h"
-            "g g g g g g g"
+            "header header header header header header header"
+            "summary summary summary summary summary summary aside"
+            "preamble preamble explanation explanation explanation explanation aside"
+            "participation participation participation participation benefits benefits aside"
+            "requirements requirements requirements requirements requirements requirements aside"
+            "footer footer footer footer footer footer footer"
     }
 
     header {
-        grid-area: a;
+        grid-area: header;
     }
 
     .summary {
-        grid-area: k;
+        grid-area: summary;
     }
 
     .preamble {
-        grid-area: b;
+        grid-area: preamble;
     }
 
     .explanation {
-        grid-area: c;
+        grid-area: explanation;
     }
 
     .participation {
-        grid-area: d;
+        grid-area: participation;
     }
 
     .benefits {
-        grid-area: e;
+        grid-area: benefits;
     }
 
     .requirements {
-        grid-area: f;
+        grid-area: requirements;
     }
 
     footer {
-        grid-area: g;
+        grid-area: footer;
     }
 
     aside {
-        grid-area: h;
+        grid-area: aside;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
