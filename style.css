@@ -129,11 +129,25 @@ table {
     border-spacing: 0
 }
 
-@import url('http://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
-/* --- CSS RESET --- */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Patua One';
+    src: url('./fonts/PatuaOne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lobster Two';
+    src: url('./fonts/LobsterTwo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('./fonts/LibreFranklin.ttf') format('truetype');
+}
 
 * {
     -webkit-box-sizing: border-box;
